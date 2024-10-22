@@ -28,7 +28,7 @@
         h1 {
             font-size: 40px;
             margin-bottom: 5px;
-            color: rgb(25, 35, 94);
+            color: rgb(13, 47, 242);
             font-weight: 950;
             color: transparent;
             background: url('https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_1280.jpg') no-repeat center center;
@@ -52,8 +52,8 @@
             margin-bottom: 4px;
             font-weight: 700;
             font-size: 20px;
-            background-color: rgb(12, 71, 75);
-            color: white;
+            background-color: rgb(143, 151, 152);
+            color: black;
             box-shadow: inset 0px 0px 3px 3px rgb(63, 87, 78);
             border-radius: 6px;
         }
@@ -83,7 +83,7 @@
                 <input type="text" id="result" placeholder="0" readonly>
             </form>
             <div class="button">
-                <button style="background-color: red;" onclick="cleardigit()">AC</button>
+                <button style="background-color: orange;" onclick="cleardigit()">AC</button>
                 <button onclick="backbtn()"><i class="fa-solid fa-delete-left"></i></button>
                 <button onclick="equal()" id="equal">=</button>
                 <br>
@@ -105,7 +105,7 @@
                 <button onclick="display(0)">0</button>
                 <button onclick="display('00')">00</button>
                 <button onclick="display('.')">.</button>
-                <button onclick="display('')"></button>
+                <button onclick="display('*')">*</button>
 
             </div>
         </div>
